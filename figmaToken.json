@@ -1,11 +1,11 @@
 {
   "global": {
     "header_Color": {
-      "value": "#00ff0e",
+      "value": "#ff002e",
       "type": "color"
     },
     "first_View_Color": {
-      "value": "#fff",
+      "value": "#073dcf",
       "type": "color"
     },
     "second_View_Color": {
