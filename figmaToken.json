@@ -1,0 +1,30 @@
+{
+  "global": {
+    "header_Color": {
+      "value": "#00ff0e",
+      "type": "color"
+    },
+    "first_View_Color": {
+      "value": "#122ce1",
+      "type": "color"
+    },
+    "second_View_Color": {
+      "value": "#ff6000",
+      "type": "color"
+    },
+    "second_View_Radius": {
+      "value": "40",
+      "type": "borderRadius"
+    },
+    "first_View_Radius": {
+      "value": "20",
+      "type": "borderRadius"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
