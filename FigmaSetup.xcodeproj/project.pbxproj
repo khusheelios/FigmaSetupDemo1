@@ -89,7 +89,6 @@
 				18359E4A15D730CFC4F6F753 /* Pods-FigmaSetup.debug.xcconfig */,
 				56475CDE5C75201F6D13BCFB /* Pods-FigmaSetup.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +103,7 @@
 		BD4A9C7F28ACDC3E00318440 = {
 			isa = PBXGroup;
 			children = (
+				BD4A9CBB28ACE09B00318440 /* figmaToken.json */,
 				BD4A9C8A28ACDC3E00318440 /* FigmaSetup */,
 				BD4A9CA128ACDC4100318440 /* FigmaSetupTests */,
 				BD4A9CAB28ACDC4100318440 /* FigmaSetupUITests */,
@@ -126,7 +126,6 @@
 		BD4A9C8A28ACDC3E00318440 /* FigmaSetup */ = {
 			isa = PBXGroup;
 			children = (
-				BD4A9CBB28ACE09B00318440 /* figmaToken.json */,
 				BD4A9C8B28ACDC3E00318440 /* AppDelegate.swift */,
 				BD4A9C8D28ACDC3E00318440 /* SceneDelegate.swift */,
 				BD4A9C8F28ACDC3E00318440 /* ViewController.swift */,
