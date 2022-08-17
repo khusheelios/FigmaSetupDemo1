@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84F2B9B588A0279626EA70A4 /* Pods_FigmaSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A0BC5CF1833EB7047E6984 /* Pods_FigmaSetup.framework */; };
 		BD4A9C8C28ACDC3E00318440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A9C8B28ACDC3E00318440 /* AppDelegate.swift */; };
 		BD4A9C8E28ACDC3E00318440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A9C8D28ACDC3E00318440 /* SceneDelegate.swift */; };
 		BD4A9C9028ACDC3E00318440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A9C8F28ACDC3E00318440 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		BD4A9CA328ACDC4100318440 /* FigmaSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A9CA228ACDC4100318440 /* FigmaSetupTests.swift */; };
 		BD4A9CAD28ACDC4100318440 /* FigmaSetupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A9CAC28ACDC4100318440 /* FigmaSetupUITests.swift */; };
 		BD4A9CAF28ACDC4100318440 /* FigmaSetupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A9CAE28ACDC4100318440 /* FigmaSetupUITestsLaunchTests.swift */; };
+		BD4A9CBC28ACE09B00318440 /* figmaToken.json in Resources */ = {isa = PBXBuildFile; fileRef = BD4A9CBB28ACE09B00318440 /* figmaToken.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18359E4A15D730CFC4F6F753 /* Pods-FigmaSetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaSetup.debug.xcconfig"; path = "Target Support Files/Pods-FigmaSetup/Pods-FigmaSetup.debug.xcconfig"; sourceTree = "<group>"; };
+		34A0BC5CF1833EB7047E6984 /* Pods_FigmaSetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FigmaSetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56475CDE5C75201F6D13BCFB /* Pods-FigmaSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaSetup.release.xcconfig"; path = "Target Support Files/Pods-FigmaSetup/Pods-FigmaSetup.release.xcconfig"; sourceTree = "<group>"; };
 		BD4A9C8828ACDC3E00318440 /* FigmaSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4A9C8B28ACDC3E00318440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD4A9C8D28ACDC3E00318440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		BD4A9CA828ACDC4100318440 /* FigmaSetupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaSetupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4A9CAC28ACDC4100318440 /* FigmaSetupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaSetupUITests.swift; sourceTree = "<group>"; };
 		BD4A9CAE28ACDC4100318440 /* FigmaSetupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaSetupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD4A9CBB28ACE09B00318440 /* figmaToken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = figmaToken.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F2B9B588A0279626EA70A4 /* Pods_FigmaSetup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79EC37F60E1654682741ADE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18359E4A15D730CFC4F6F753 /* Pods-FigmaSetup.debug.xcconfig */,
+				56475CDE5C75201F6D13BCFB /* Pods-FigmaSetup.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB61CDEF906E83A6265B9E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A0BC5CF1833EB7047E6984 /* Pods_FigmaSetup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD4A9C7F28ACDC3E00318440 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				BD4A9CA128ACDC4100318440 /* FigmaSetupTests */,
 				BD4A9CAB28ACDC4100318440 /* FigmaSetupUITests */,
 				BD4A9C8928ACDC3E00318440 /* Products */,
+				79EC37F60E1654682741ADE9 /* Pods */,
+				BB61CDEF906E83A6265B9E8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,7 @@
 		BD4A9C8A28ACDC3E00318440 /* FigmaSetup */ = {
 			isa = PBXGroup;
 			children = (
+				BD4A9CBB28ACE09B00318440 /* figmaToken.json */,
 				BD4A9C8B28ACDC3E00318440 /* AppDelegate.swift */,
 				BD4A9C8D28ACDC3E00318440 /* SceneDelegate.swift */,
 				BD4A9C8F28ACDC3E00318440 /* ViewController.swift */,
@@ -134,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD4A9CB228ACDC4100318440 /* Build configuration list for PBXNativeTarget "FigmaSetup" */;
 			buildPhases = (
+				845C63A7B495F3CD2A6DC522 /* [CP] Check Pods Manifest.lock */,
 				BD4A9C8428ACDC3E00318440 /* Sources */,
 				BD4A9C8528ACDC3E00318440 /* Frameworks */,
 				BD4A9C8628ACDC3E00318440 /* Resources */,
+				B1788589D1E36B88E6EF5063 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4A9CBC28ACE09B00318440 /* figmaToken.json in Resources */,
 				BD4A9C9828ACDC4100318440 /* LaunchScreen.storyboard in Resources */,
 				BD4A9C9528ACDC4100318440 /* Assets.xcassets in Resources */,
 				BD4A9C9328ACDC3E00318440 /* Main.storyboard in Resources */,
@@ -252,6 +283,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		845C63A7B495F3CD2A6DC522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FigmaSetup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1788589D1E36B88E6EF5063 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FigmaSetup/Pods-FigmaSetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FigmaSetup/Pods-FigmaSetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FigmaSetup/Pods-FigmaSetup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD4A9C8428ACDC3E00318440 /* Sources */ = {
@@ -432,6 +505,7 @@
 		};
 		BD4A9CB328ACDC4100318440 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18359E4A15D730CFC4F6F753 /* Pods-FigmaSetup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +533,7 @@
 		};
 		BD4A9CB428ACDC4100318440 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56475CDE5C75201F6D13BCFB /* Pods-FigmaSetup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
